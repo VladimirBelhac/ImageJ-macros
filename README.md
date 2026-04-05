@@ -1,0 +1,1 @@
+The cell-counting macro was used for Hoechst and SYTOX staining to quantify live and dead cells, respectively. The macro requires adjustment of the threshold, particle size, and circularity parameters. Note that the current settings are based on images acquired at 4× magnification.![github](https://github.com/user-attachments/assets/3e3cf2a2-b933-42b1-83e5-c4c43d68f5d4)
