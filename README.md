@@ -1,4 +1,4 @@
-![github - muscle diff quant](https://github.com/user-attachments/assets/ebf27476-b7fe-4d83-b2d3-26df1f414263)Cell Count:
+Cell Count:
 The cell-counting macro was used for Hoechst and SYTOX staining to quantify live and dead cells, respectively. The macro requires adjustment of the threshold, particle size, and circularity parameters. Note that the current settings are based on images acquired at 4× magnification.![github](https://github.com/user-attachments/assets/3e3cf2a2-b933-42b1-83e5-c4c43d68f5d4)
 MyoDIFF: 
 Quantification of myotube coverage in differentiated myoblasts cultured in a 96-well plate. The macro requires adjustment of the threshold and the area to be quantified (e.g., setTool("oval"); makeOval(-13, -3, 1211, 1215);). The macro is currently set to quantify the second channel of a three-channel image. If this is not the case, adjust or remove the first two lines of the macro: run("Split Channels"); run("Close");.
